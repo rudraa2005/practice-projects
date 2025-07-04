@@ -1,0 +1,44 @@
+
+body {
+    display: flex;
+    font-family: 'Courier New',monospace;
+    background-color: #f4f4f4;
+    color: #333;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    
+}
+.container {
+    display: flex;
+    height: 20px;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    width: 80%;
+    height: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+.amount{
+    padding: 30px;
+    display: block;
+}
+.from-to{
+    display: flex;
+   flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:10px;
+}
+
+.show{
+    padding:20px
+}
+#convertedAmount{
+    padding:10px;
+    margin-top: 10px;
+}
