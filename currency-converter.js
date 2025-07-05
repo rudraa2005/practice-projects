@@ -1,12 +1,12 @@
 const base_url="https://v6.exchangerate-api.com/v6/d0d8af7f17301180a90ff788/latest"
 
-const dropdowns = document.querySelectorAll(".dropdown select"); // Fixed typo in variable name
+const dropdowns = document.querySelectorAll(".dropdown select"); 
 const btn= document.querySelector(".dropdown button")
 const toCurr = document.querySelector(".to select")
 const fromCurr=document.querySelector(".from select");
 const msg = document.getElementById("convertedAmount");
 for (let select of dropdowns) {
-    for (let currCode of Object.keys(countryList)) { // Ensure proper iteration over countryList keys
+    for (let currCode of Object.keys(countryList)) { 
         let newOption = document.createElement("option");
         newOption.innerText = currCode;
         newOption.value = currCode;
